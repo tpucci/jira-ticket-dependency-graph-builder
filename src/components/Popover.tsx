@@ -36,7 +36,7 @@ export function Popover({
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <HUIPopover.Panel className="absolute right-0 z-10 mt-3 w-screen max-w-sm transform px-4 sm:px-0 lg:max-w-3xl">
+            <HUIPopover.Panel className="absolute right-0 z-10 mt-3 w-screen max-w-sm transform px-4 sm:px-0">
               <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-background-900 ring-opacity-5">
                 <div className="bg-surface-50 p-4">{popoverChildren}</div>
               </div>

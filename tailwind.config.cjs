@@ -9,6 +9,7 @@ module.exports = {
       ...colors,
       background: colors.zinc,
       surface: colors.gray,
+      primary: colors.blue,
     },
   },
   plugins: [],
