@@ -38,7 +38,9 @@ export function Popover({
           >
             <HUIPopover.Panel className="absolute right-0 z-10 mt-3 w-screen max-w-sm transform px-4 sm:px-0">
               <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-background-900 ring-opacity-5">
-                <div className="bg-surface-50 p-4">{popoverChildren}</div>
+                <div className="bg-surface-50 p-4 flex items-stretch flex-col gap-2">
+                  {popoverChildren}
+                </div>
               </div>
             </HUIPopover.Panel>
           </Transition>

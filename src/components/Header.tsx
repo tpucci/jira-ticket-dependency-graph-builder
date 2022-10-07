@@ -1,4 +1,3 @@
-import { JSX } from "preact"
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline"
 
 interface HeaderProps {

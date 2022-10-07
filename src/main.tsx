@@ -1,5 +1,6 @@
 import { LockOpenIcon } from "@heroicons/react/20/solid"
 import { render, JSX } from "preact"
+import { Button } from "./components/Button"
 import { Header } from "./components/Header"
 import { Input } from "./components/Input"
 import { Popover } from "./components/Popover"
@@ -19,6 +20,7 @@ function App(): JSX.Element {
                   label="API Token"
                   placeholder="qwerty12345"
                 />
+                <Button leftIcon={<LockOpenIcon />} label="Save" />
               </>
             }
           />
